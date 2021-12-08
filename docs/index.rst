@@ -31,22 +31,22 @@
 Abstract
 =================================================
 
-Use blueprints to organize a web application.
+使用蓝图来组织一个web应用程序。
 
 Introduction
 =================================================
 
-Photo String is a web album for storing photos, allowing us to upload an image and add a description to that image.
+Photo String是一个用于存储照片的web相册，允许我们上传图像并为该图像添加描述。
 
-This experiment adds upload_bp, show_bp, search_bp, and api_bp to the project through blueprints.
+本实验通过蓝图将upload_bp、show_bp、search_bp和api_bp添加到项目中。
 
-The upload bp blueprint allows uploading a new photo. The associated route is /upload.
+upload_bp蓝图允许上传一个新的照片。关联的路由为/upload。
 
-The show bp blueprint allows displaying all photos and their descriptions in chronological order. The associated route is /show.
+show_bp蓝图允许按时间顺序显示所有照片及其描述。关联的路由为/show。
 
-The search bp blueprint allows filtering photos according to their descriptions. The associated route is /search/query-string. Only the photos whose descriptions match query-string will be returned as the search result.
+search_bp蓝图允许过滤照片根据他们的描述。关联的路由为/search/query-string。只有描述与查询字符串匹配的照片才会作为搜索结果返回。可以通过模糊搜索进行查找。
 
-The api bp blueprint allows us to get all photo information in JSON format from command-line. HTTPie is a useful API testing tool. The associated route is /api/json. The returned json string must contain photo ID, date of upload, photo size (in KB) and photo description for each photo.
+api_bp蓝图允许我们从命令行获得JSON格式的所有照片信息。HTTPie是一个有用的API测试工具。关联的路由是/api/json。返回的json字符串必须包含照片ID，上传日期，照片大小(以KB为单位)和照片描述。
 
 Methods and materials
 =================================================
