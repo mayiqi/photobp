@@ -53,6 +53,15 @@ Methods and materials
 
 ①blueprint: Blueprint是一个存储视图方法的容器，这些操作在这个Blueprint 被注册到一个应用之后就可以被调用，Flask 可以通过Blueprint来组织URL以及处理请求。
 
+Flask使用Blueprint让应用实现模块化，在Flask中，Blueprint具有如下属性：
+1.一个项目可以具有多个Blueprint
+2.可以将一个Blueprint注册到任何一个未使用的URL下比如 “/”、“/sample”或者子域名
+3.在一个应用中，一个模块可以注册多次
+4.Blueprint可以单独具有自己的模板、静态文件或者其它的通用操作方法，它并不是必须要实现应用的视图和函数的
+5.在一个应用初始化时，就应该要注册需要使用的Blueprint
+
+但是一个Blueprint并不是一个完整的应用，它不能独立于应用运行，而必须要注册到某一个应用中。
+
 ②HTTPie:HTTPie 是一个 HTTP 的命令行客户端，目标是让 CLI 和 web 服务之间的交互尽可能的人性化。这个工具提供了简洁的 http 命令，允许通过自然的语法发送任意 HTTP 请求数据，展示色彩化的输出。HTTPie 可用于与 HTTP 服务器做测试、调试和常规交互。
 
 Results
