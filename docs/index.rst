@@ -20,7 +20,7 @@
 
 201932110107田西芷
 
-**项目GitHub地址**: `bp-photo`_.
+**项目GitHub地址**: `BP Photo`_.
 
 .. _EnglishPal: https://github.com/mayiqi/photobp/
 
