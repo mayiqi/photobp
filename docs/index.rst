@@ -20,13 +20,13 @@
 
 201932110107田西芷
 
-**项目GitHub地址**: `photobp`_.
+**项目GitHub地址**: `bp-photo`_.
 
-.. _EnglishPal: https://github.com/ChiefEye-official/Test/
+.. _EnglishPal: https://github.com/mayiqi/photobp/
 
 **项目Read the Doc地址**: `Read the Doc`_.
 
-.. _Read The Doc: https://readthedocs.org/projects/testenglishpal/
+.. _Read The Doc: https://bpphoto.readthedocs.io/en/latest/
 
 Abstract
 =================================================
