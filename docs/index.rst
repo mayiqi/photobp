@@ -22,7 +22,7 @@
 
 **项目GitHub地址**: `BP Photo`_.
 
-.. _EnglishPal: https://github.com/mayiqi/photobp/
+.. _BP Photo: https://github.com/mayiqi/photobp/
 
 **项目Read the Doc地址**: `Read the Doc`_.
 
