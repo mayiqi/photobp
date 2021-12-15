@@ -30,7 +30,7 @@
 
 **项目演示视频地址**: `video`_.
 
-.. _video: https://bpphoto.readthedocs.io/en/latest/
+.. _video: https://v.douyin.com/RTmFw34/
 
 Abstract
 =================================================
